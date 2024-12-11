@@ -1,6 +1,6 @@
 provider "google" {
-  credentials = file("google-credentials.json") # The service account JSON file
-  project     = var.project_id                 # Using variable for project ID
+  credentials = file("GOOGLE_CREDENTIALS") # The service account JSON file
+  project     = var.devsecops-444309                 # Using variable for project ID
   region      = var.region                     # Using variable for region
 }
 
