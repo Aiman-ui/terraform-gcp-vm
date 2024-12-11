@@ -1,4 +1,4 @@
-google-credentials
+GOOGLE_CREDENTIALS
 .terraform/
 *.tfstate
 *.tfstate.backup
