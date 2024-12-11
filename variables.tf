@@ -1,4 +1,4 @@
-variable "project_id" {
+variable "devsecops-444309" {
   description = "Your GCP project ID"
   type        = string
 }
