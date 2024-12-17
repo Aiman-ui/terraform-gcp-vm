@@ -1,7 +1,8 @@
 provider "google" {
   credentials = file("GOOGLE_CREDENTIALS") # The service account JSON file
   project     = var.devsecops-444309                 # Using variable for project ID
-  region      = var.region                     # Using variable for region
+  region      = var.region   # Using variable for region
+  zone         = var.zone  
 }
 
 resource "google_compute_instance" "vm_instance" {
