@@ -2,6 +2,7 @@ variable "GOOGLE_CREDENTIALS" {
   description = "Google Cloud service account credentials in JSON format"
   type        = string
 }
+
 variable "project_id" {
   description = "GCP project ID"
   type        = string
