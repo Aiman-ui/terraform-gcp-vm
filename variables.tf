@@ -2,8 +2,8 @@ variable "GOOGLE_CREDENTIALS" {
   description = "Google Cloud service account credentials in JSON format"
   type        = string
 }
-variable "devsecops-444309" {
-  description = "Your GCP project ID"
+variable "project_id" {
+  description = "GCP project ID"
   type        = string
 }
 
