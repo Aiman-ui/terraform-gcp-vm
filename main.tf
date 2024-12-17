@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file(var.GOOGLE_CREDENTIALS)  # Match variable name
+  credentials =var.GOOGLE_CREDENTIALS  # Match variable name
   project     = var.project_id                # Match variable name
   region      = var.region                    # Match variable name
   zone        = var.zone                      # Match variable name
